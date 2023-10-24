@@ -1,0 +1,590 @@
+/* Import font Roboto */
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Bold.eot");
+  src: url("./lib/Roboto/?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Bold.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Bold.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Bold.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Black.eot");
+  src: url("./lib/Roboto/Roboto-Black.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Black.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Black.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Black.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-BlackItalic.eot");
+  src: url("./lib/Roboto/Roboto-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-BlackItalic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-BlackItalic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-BlackItalic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-BoldItalic.eot");
+  src: url("./lib/Roboto/Roboto-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-BoldItalic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-BoldItalic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-BoldItalic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Italic.eot");
+  src: url("./lib/Roboto/Roboto-Italic.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Italic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Italic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Italic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Light.eot");
+  src: url("./lib/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Light.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Light.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Light.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-LightItalic.eot");
+  src: url("./lib/Roboto/Roboto-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-LightItalic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-LightItalic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-LightItalic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-LightItalic.svg#Roboto-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Medium.eot");
+  src: url("./lib/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Medium.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Medium.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Medium.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-MediumItalic.eot");
+  src: url("./lib/Roboto/Roboto-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-MediumItalic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-MediumItalic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-MediumItalic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-MediumItalic.svg#Roboto-MediumItalic")
+      format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Regular.eot");
+  src: url("./lib/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Regular.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Regular.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-Thin.eot");
+  src: url("./lib/Roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-Thin.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-Thin.woff") format("woff"),
+    url("./lib/Roboto/Roboto-Thin.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-Thin.svg#Roboto-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./lib/Roboto/Roboto-ThinItalic.eot");
+  src: url("./lib/Roboto/Roboto-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./lib/Roboto/Roboto-ThinItalic.woff2") format("woff2"),
+    url("./lib/Roboto/Roboto-ThinItalic.woff") format("woff"),
+    url("./lib/Roboto/Roboto-ThinItalic.ttf") format("truetype"),
+    url("./lib/Roboto/Roboto-ThinItalic.svg#Roboto-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: Roboto;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* CSS Grid */
+.container {
+  width: 100%;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row > * {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+/* Navigation./start */
+.navbar {
+  width: 100%;
+  padding: 8px 0 8px 0;
+  background-color: #f8f9fa;
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      font-size: 20px;
+      line-height: 30px;
+      text-decoration: none;
+      color: black;
+      margin-right: 16px;
+      padding: 5px 0;
+    }
+    /* Responsive Mobile./start */
+    .navbar-toggler {
+      display: none;
+      cursor: pointer;
+      padding: 4px 12px;
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+      border: 1px solid rgb(0, 0, 0, 0.1);
+      border-radius: 0.375rem;
+    }
+    /* Responsive Mobile./end */
+    .nav-collapse {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+
+      .navbar-nav {
+        margin-left: 1.5rem;
+        display: flex;
+
+        .dropdown {
+          position: relative;
+
+          .dropdown-menu {
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            display: none;
+            z-index: 1000;
+            width: 10rem;
+            padding: 8px 0;
+            color: #212529;
+            background-color: white;
+            margin-top: 10px;
+            border: 1px solid rgb(0, 0, 0, 0.1);
+            border-radius: 0.375rem;
+            .dropdown-divider {
+              border: 1px solid rgb(0, 0, 0, 0.1);
+            }
+            .dropdown-item {
+              /* display: block; */
+              width: 100%;
+              color: black;
+              font-size: 16px;
+              line-height: 24px;
+              text-decoration: none;
+              padding: 4px 16px;
+            }
+            .dropdown-item:hover {
+              background-color: #e9ecef;
+            }
+          }
+        }
+        .nav-link {
+          color: rgb(0, 0, 0, 0.55);
+          font-size: 16px;
+          line-height: 24px;
+          text-align: left;
+          text-decoration: none;
+          padding: 8px;
+        }
+        .nav-link:hover {
+          color: black;
+        }
+        .active {
+          color: black;
+        }
+      }
+    }
+    .d-flex {
+      display: flex;
+
+      .btn-cart {
+        color: #212529;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        background-color: white;
+        padding: 6px 12px;
+        border: 1px solid #212529;
+        border-radius: 0.375rem;
+        cursor: pointer;
+        padding: 0.375rem 0.75rem;
+
+        .me-1 {
+          margin-right: 10px;
+        }
+        .badge {
+          color: white;
+          font-size: 12px;
+          line-height: 12px;
+          text-align: center;
+          background-color: #212529;
+          margin-left: 10px;
+          padding: 4px 8px;
+          border-radius: 10px;
+        }
+      }
+      .btn-cart:hover {
+        color: white;
+        background-color: #212529;
+      }
+    }
+  }
+}
+
+/* Header./start */
+.header {
+  width: 100%;
+  background-color: #212529;
+  padding: 3rem 0;
+
+  .header-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    .text-center {
+      color: white;
+      .heading1 {
+        font-size: 56px;
+        line-height: 67.2px;
+        font-weight: bolder;
+        margin-bottom: 8px;
+      }
+      .text-content {
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+/* Section */
+.products-list {
+  width: 100%;
+  padding: 3rem 0;
+
+  .section-container {
+    margin-top: 3rem;
+  }
+  .mb-5 {
+    margin-bottom: 48px;
+  }
+  .cart {
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
+    overflow: hidden;
+    .badge-sale {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #212529;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 12px;
+      text-align: center;
+      padding: 4px 8px;
+      border-radius: 0.375rem;
+    }
+    .img-cart-top {
+      width: 100%;
+      object-fit: cover;
+    }
+    .cart-body {
+      font-size: 16px;
+      line-height: 24px;
+      height: 133px;
+      padding: 24px;
+      text-align: center;
+      .cart-body-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 8px;
+      }
+      .product-review {
+        margin-bottom: 8px;
+        color: #ffc107;
+      }
+      .wrap_price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .price {
+          color: rgb(108, 117, 125);
+          text-decoration: line-through solid rgb(108, 117, 125);
+        }
+      }
+    }
+    .cart-footer {
+      height: 62px;
+      padding: 0 24px 24px 24px;
+      text-align: center;
+
+      .btn-add-to-cart {
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border: 1px solid #212529;
+        border-radius: 0.375rem;
+        padding: 6px 12px;
+      }
+      .btn-add-to-cart:hover {
+        color: white;
+        background-color: #212529;
+      }
+    }
+  }
+}
+
+/* footer.start */
+.footer {
+  width: 100%;
+  background-color: #212529;
+  padding: 3rem 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
